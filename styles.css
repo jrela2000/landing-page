@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+
+  }
+
+  .header-logo {
+    color:#f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+  }
+  
+  header {
+    background-color: #1f2937;
+    padding: 5em;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  p {
+    color:#e5e7eb;
+    padding: none;
+    margin: 0;
+
+  }
+  p.cta {
+    font-weight: bold;
+  }
+   
+ 
+  
+  section {
+    padding: 5em;
+    
+  } 
+  
+  #hero {
+   
+    background-color: #1f2937;
+     display:flex;
+
+  }
+  
+  #info {
+    text-align: center;
+   
+    
+
+}
+
+#quote {
+  background-color: #e5e7eb;
+  text-align: center;
+  
+
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+    
+  margin: 0;
+}
+
+#cta {
+  
+  text-align: center;
+}
+
+
+.sign-up {
+    background-color: #3882f6;
+    margin: 1em;
+    padding: 2em 3em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+button {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+    
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    .sub-container {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 1em;
+
+}
+  
+  .item {
+    width: 100%;
+    min-width: 200px;
+    height: 200px;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 2px solid lightskyblue;
+    
+    
+  }
+
+  .caption {
+    text-align: center;
+    margin: 0;
+  }
+  
+  
+  
+  
+  
+  
