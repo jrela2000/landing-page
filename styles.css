@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     max-width: 1024px;
+    min-width: 800px;
     margin: 0 auto;
     background-color: #181120;
 
@@ -67,7 +68,7 @@ body {
  
   
   section {
-    padding: 5em;
+    padding: 2em;
     
   } 
   
@@ -86,6 +87,7 @@ body {
   #info {
     text-align: center;
     background-color: #00686c;
+    
    
   }
 
@@ -143,10 +145,9 @@ footer {
 }
 
 .container {
-    
-    padding: 1em;
+    /*padding: 5em;*/
+    margin: 5em; 
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     }
@@ -156,7 +157,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
+    width: 0;
     margin: 1em;
 
 }
