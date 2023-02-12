@@ -2,12 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    max-width: 1024px;
+    margin: 0 auto;
+
   }
   
   h1 {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8;
+    color: #d0632a;
+    text-shadow: 2px 2px 5px #000000;
+
 
   }
 
@@ -24,8 +29,8 @@ body {
   }
   
   header {
-    background-color: #1f2937;
-    padding: 5em;
+    background-color: #181120;
+    padding: 1em;
     display: flex;
     justify-content: space-between;
   }
@@ -67,20 +72,28 @@ body {
   
   #hero {
    
-    background-color: #1f2937;
-     display:flex;
+    background-image: url("city\ 1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
 
   }
   
   #info {
     text-align: center;
+    background-color: #00686c;
    
-    
-
-}
+  }
 
 #quote {
-  background-color: #e5e7eb;
+  background-image: url("city\ 2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
   text-align: center;
   
 
@@ -89,7 +102,9 @@ body {
 blockquote {
     font-size: 36px;
     font-style: italic;
-    color:#1f2937;
+    color:#fff;
+    text-shadow: 2px 2px 5px #000000;
+
     
   margin: 0;
 }
@@ -97,11 +112,12 @@ blockquote {
 #cta {
   
   text-align: center;
+  background-color:#6F1D2B ;
 }
 
 
 .sign-up {
-    background-color: #3882f6;
+    background-color: #D0623A;
     margin: 1em;
     padding: 2em 3em;
     border-radius: 5px;
@@ -112,7 +128,7 @@ blockquote {
 
 }
 button {
-  background-color: #3882f6;
+  background-color: #00686C;
   color: white;
   padding: 10px 20px;
   border: 1px solid #fff;
@@ -120,7 +136,7 @@ button {
 }
 
 footer {
-  background-color: #1f2937;
+  background-color: #181120;
   text-align: center;
   padding: 20px;
 }
@@ -150,7 +166,7 @@ footer {
     height: 200px;
     margin-bottom: 1em;
     border-radius: 5px;
-    border: 2px solid lightskyblue;
+    border: 2px solid #d0632a;
     
     
   }
@@ -159,7 +175,17 @@ footer {
     text-align: center;
     margin: 0;
   }
+
+  .heropix {
+   max-width:50% ;
+   min-width: 400px;
+   display: flex;
+   justify-content: right;
+  }
   
+  .infopix {
+    width: 200px;
+  }
   
   
   
